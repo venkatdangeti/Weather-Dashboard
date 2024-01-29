@@ -11,6 +11,7 @@ header {
   padding-bottom: 15px;
 }
 
+label,
 input,
 button {
   width: 100%;
@@ -18,23 +19,41 @@ button {
   border-radius: var(--border-radius);
 }
 
-#input-group {
+.input-group {
   display: flex;
   flex-direction: column;
+  width: 100%;
   justify-content: space-between;
   border-bottom: 2px solid black;
 }
 
-#search-button {
-  border: none;
-  background-color: lightblue;
+#form-heading {
+  font-size: 30px;
+  font-weight: bold;
 }
+
 
 #search-input {
   border: 1px solid gray;
   text-transform: uppercase;
 }
 
+#search-button {
+  width: 300px;
+  margin-bottom: 10px;
+  border-radius: var(--border-radius);
+  background-color: lightblue;
+}
+
+#history {
+  background-color: lightgray;
+  width: 300px;
+  padding: 5px 0px;
+  margin-top: 10px;
+  text-align: center;
+  list-style: none;
+  border-radius: var(--border-radius);
+}
 
 .weather-container {
   margin-right: 5px;
