@@ -1,0 +1,66 @@
+:root {
+  --border-radius: 5px;
+}
+
+header {
+  text-align: center;
+  background-image: linear-gradient(to right, blue, purple);
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+input,
+button {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: var(--border-radius);
+}
+
+#input-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+
+#search-button {
+  border: none;
+  background-color: lightblue;
+}
+
+#search-input {
+  border: 1px solid gray;
+  text-transform: uppercase;
+}
+
+
+.weather-container {
+  margin-right: 5px;
+}
+
+#weather-display {
+  min-width: 70%;
+  padding: 10px;
+  border: 2px solid black;
+  margin-top: 20px;
+}
+
+#five-day-title {
+  margin-top: 10px;
+}
+
+#five-day-forecast {
+  display: flex;
+  flex-flow: row, nowrap;
+  margin-top: 10px;
+}
+
+.day-container {
+  color: white;
+  background-color: #2a44c2;
+  margin-right: 15px;
+  padding: 5px 30px 5px 5px;
+  text-align: left;
+}
