@@ -62,4 +62,4 @@ Weather content for history page: ![Alt text](images/Weather%20dashboard6.png)
 
 ## Git Hub page - https://github.com/venkatdangeti/Weather-Dashboard.git
 
-## Deployed site page - 
+## Deployed site page - https://venkatdangeti.github.io/Weather-Dashboard/
