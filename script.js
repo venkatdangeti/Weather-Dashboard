@@ -139,7 +139,6 @@ function renderCity() {
 function displayOldCity() {
   listOfCities.on("click", function (event) {
     var element = event.target;
-    debugger
 
     if (element.matches("p") === true) {
       var index = element.getAttribute("id");
