@@ -1,7 +1,3 @@
-:root {
-  --border-radius: 5px;
-}
-
 header {
   text-align: center;
   background-image: linear-gradient(to right, blue, purple);
@@ -11,6 +7,12 @@ header {
   padding-bottom: 15px;
 }
 
+h2 {
+  font-size: 28.5px;
+  font-weight: bold;
+}
+
+
 input,
 button {
   width: 100%;
@@ -18,10 +20,10 @@ button {
   border-radius: var(--border-radius);
 }
 
-.input-group {
+.form-group {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 300px;
   justify-content: space-between;
   border-bottom: 2px solid black;
 }
@@ -35,24 +37,34 @@ button {
 #search-input {
   border: 1px solid gray;
   text-transform: uppercase;
+  border-radius: 5px;
 }
 
 #search-button {
   width: 300px;
   margin-bottom: 10px;
-  border-radius: var(--border-radius);
+  border-radius: 5px;
   background-color: lightblue;
 }
 
-#history {
-  background-color: lightgray;
+#history p {
+  background-color: rgb(135, 131, 131);
   width: 300px;
   padding: 5px 0px;
   margin-top: 10px;
   text-align: center;
   list-style: none;
-  border-radius: var(--border-radius);
+  border-radius: 5px;
 }
+
+#wicon {
+  margin-left: 30px;
+}
+
+.daily-list li {
+  list-style: none;
+}
+
 
 .weather-container {
   margin-right: 5px;
@@ -77,8 +89,24 @@ button {
 
 .day-container {
   color: white;
-  background-color: #2a44c2;
+  background-color: #393a3e;
   margin-right: 15px;
   padding: 5px 30px 5px 5px;
   text-align: left;
+}
+
+#current-uv {
+  display: inline;
+}
+
+.favorable-uv {
+  background-color: lightgreen;
+}
+
+.moderate-uv {
+  background-color: yellow;
+}
+
+.severe-uv {
+  background-color: red;
 }
