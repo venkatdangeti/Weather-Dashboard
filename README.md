@@ -39,3 +39,27 @@ SO THAT I can plan a trip accordingly
     * The temperature
     * The humidity
   * When a user click on a city in the search history they are again presented with current and future conditions for that city
+
+
+  The following screenshots demonstrates the application functionality:
+
+
+## Final Screens
+
+Main Page : ![Alt text](images/Weather%20dashboard1.png)
+
+Search Page : ![Alt text](images/Weather%20dashboard2.png)
+
+Weather content Page : ![Alt text](images/Weather%20dashboard3.png)
+
+Refresh or Re-open page : ![Alt text](images/Weather%20dashboard4.png)
+
+History persistent page : ![Alt text](images/Weather%20dashboard5.png)
+
+Weather content for history page: ![Alt text](images/Weather%20dashboard6.png)
+
+
+
+## Git Hub page - 
+
+## Deployed site page - 
