@@ -1,5 +1,4 @@
 //all variables
-
 var selectedCity = $("#selected-city");
 var currentTemp = $("#current-temp");
 var currentWind = $("#current-wind");
@@ -114,11 +113,11 @@ function displayWeather(x) {
             wind5.text(`Wind: ${data.daily[i].wind_speed} MPH`);
             humid5.text(`Humidity: ${data.daily[i].humidity} %`);
           }
-          //closes for loop
+
         });
-      //closes 2nd .then(function
+
     })
-  //closes 1st .then(function
+
 }
 //closes displayweather function
 
